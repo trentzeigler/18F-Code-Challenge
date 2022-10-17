@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "module": "commonjs",
+        "outDir": "build",
+        "rootDir": "./src",
+        "target": "ES6",
+        "lib": [
+            "es2015",
+            "es6",
+            "DOM"
+        ],
+        "sourceMap": true,
+        "baseUrl": "src",
+        "paths": {
+            "*": [
+                "*"
+            ]
+        },
+        "plugins": [
+            {
+                "name": "typescript-eslint-plugin",
+                "alwaysShowRuleFailuresAsWarnings": true,
+                "ignoreDefinitionFiles": true,
+                "suppressWhileTypeErrorsPresent": false
+            }
+        ],
+        "esModuleInterop": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/**/*.spec.ts",
+    ],
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "atom": {
+        "rewriteTsconfig": false
+    },
+}
