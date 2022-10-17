@@ -30,7 +30,9 @@ If this causes issues, figure a solution to house the db in whatever way you are
 
 4 - Save any notes that you make have about possible flaws in testing criteria for us to review during the interview. We are always looking to make improvements
 
-5 - Have Fun with it! Make the project your own and develop to the best of your abilities given the time alloted and resources available
+5 - Please add in any pseudo-code that you can so that we have a look into why you do things the way that you do them. It will help us to evaluate things that were done as well as help us to access functionality if it is not obvious given how you choose to design the UI.
+
+6 - Have Fun with it! Make the project your own and develop to the best of your abilities given the time alloted and resources available
 
 # TESTING CRITERIA
 
