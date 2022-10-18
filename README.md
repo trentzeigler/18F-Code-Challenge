@@ -2,31 +2,31 @@
 This is the base repo for a code test for developers to use in tandem with the instructions given if they make it past the first round interview.
 
 # SETUP
-Use the GitHub fork feature to fork this repo into your own account
+* Use the GitHub fork feature to fork this repo into your own account
 
-If needed, install whatever tools you may need to do local dev with mongodb (e.g. MongoDB Compass)
+* If needed, install whatever tools you may need to do local dev with mongodb (e.g. MongoDB Compass)
 
-Feel free to edit the package.json as needed and uninstall or install any deps that you may need
+* Project is run on node version 16.18.0
+
+* Ensure you have docker installed in order to house the container for mongodb instance
+--ref: https://hub.docker.com/_/mongo
+--If this causes issues, figure a solution to house the db in whatever way you are comfortable
+
+* Feel free to edit the package.json as needed and uninstall or install any deps that you may need
 
 # CLIENT SIDE
-Checkout to client folder in terminal
+* Checkout to client folder in terminal
 
-run npm i
+* run npm i
 
-run npm run start
+* run npm run start
 
 # SERVER SIDE
-Checkout to server folder
+* Checkout to server folder
 
-run npm i
+* run npm i
 
-run npm run dev
-
-Project is run on node version 16.18.0
-
-Ensure you have docker installed in order to house the container for mongodb instance
-
-If this causes issues, figure a solution to house the db in whatever way you are comfortable
+* run npm run dev
 
 # DEV NOTES/RULES
 1 - Have integrity. Please do not share this repo url or any of the testing criteria with anyone
