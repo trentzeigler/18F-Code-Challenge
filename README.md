@@ -1,16 +1,13 @@
-# 18F-Code-Challenge
-This is the base repo for a code test for developers to use in tandem with the instructions given if they make it past the first round interview.
-
 # SETUP
-* Use the GitHub fork feature to fork this repo into your own account
+* Use the documentation provided to use our template repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
 * If needed, install whatever tools you may need to do local dev with mongodb (e.g. MongoDB Compass)
 
 * Project is run on node version 16.18.0
 
 * Ensure you have docker installed in order to house the container for mongodb instance
---ref: https://hub.docker.com/_/mongo
---If this causes issues, figure a solution to house the db in whatever way you are comfortable
+  * ref: https://hub.docker.com/_/mongo
+  *If this causes issues, figure a solution to house the db in whatever way you are comfortable
 
 * Feel free to edit the package.json as needed and uninstall or install any deps that you may need
 
