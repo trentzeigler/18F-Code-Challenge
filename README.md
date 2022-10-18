@@ -1,6 +1,13 @@
 # 18F-Code-Challenge
 This is the base repo for a code test for developers to use in tandem with the instructions given if they make it past the first round interview.
 
+# SETUP
+Use the GitHub fork feature to fork this repo into your own account
+
+If needed, install whatever tools you may need to do local dev with mongodb (e.g. MongoDB Compass)
+
+Feel free to edit the package.json as needed and uninstall or install any deps that you may need
+
 # CLIENT SIDE
 Checkout to client folder in terminal
 
