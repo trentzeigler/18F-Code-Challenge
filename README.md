@@ -28,12 +28,26 @@ If this causes issues, figure a solution to house the db in whatever way you are
 
 3 - Be a free thinker! If you want to add in your own features or make any part of the code more intuitive, absolutely do so!
 
-4 - Save any notes that you make have about possible flaws in testing criteria for us to review during the interview. We are always looking to make improvements
+4 - If you like the BE more, put more effort into the BE files and have a basic FE // Vice Versa
 
-5 - Please add in any pseudo-code that you can so that we have a look into why you do things the way that you do them. It will help us to evaluate things that were done as well as help us to access functionality if it is not obvious given how you choose to design the UI.
+5 - Save any notes that you make have about possible flaws in testing criteria for us to review during the interview. We are always looking to make improvements
 
-6 - Have Fun with it! Make the project your own and develop to the best of your abilities given the time alloted and resources available
+6 - Please add in any pseudo-code that you can so that we have a look into why you do things the way that you do them. It will help us to evaluate things that were done as well as help us to access functionality if it is not obvious given how you choose to design the UI.
+
+7 - Have Fun with it! Make the project your own and develop to the best of your abilities given the time alloted and resources available
 
 # TESTING CRITERIA
+Create a multi component React/Redux/Node/Mongo app to process results from a REST service and store in a local db instance.
 
-* outline testing criteria here *
+Backend (Node/Express Server && Mongodb):
+* On startup of the server, you should fetch data from the following url and store in the db:
+  http://jsonplaceholder.typicode.com/posts
+* Create a REST API using express/node to interact with your data that you have now stored
+* BONUS - Implement authentication method on your endpoints 
+
+Frontend (React/Redux SPA):
+* Provide ability for user to search the JSON data by title and body text.
+* Results of user search should be presented on the page.
+* Provide ability for user to select an entry from the results and have it populate an edit form.
+* Provide ability for user to edit the entry and have it saved in the local Redux store. (the edited entry should be presented on subsequent searches until page reload).
+* BONUS - Implement auto fill and search on type.
